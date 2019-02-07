@@ -1,14 +1,20 @@
 ### expo-stripe-checkout
 
+Inspired by (https://github.com/catalinmiron/react-native-plaid-link)
+
 Since currently the only way to implement Stripe Checkout on an Expo app is by ejecting, I've built this lib that adds support for Stripe Checkout using a WebView.
 
 ![expo-stripe-checkout-demo](expo-stripe-checkout-demo.gif)
 
 ### Usage
 
-`npm install expo-stripe-checkout`
+```
+npm install expo-stripe-checkout
+```
 or
-`yarn add expo-stripe-checkout`
+```
+yarn add expo-stripe-checkout
+```
 
 #### API
 
@@ -50,3 +56,14 @@ onPaymentSuccess = (token) => {
 onClose = () => {
   // maybe navigate to other screen here?
 }
+```
+
+For more information please
+[read their docs](https://stripe.com/docs/checkout)
+
+#### Questions?
+
+Feel free to contact me:
+
+Twitter: [@briansztamfater](http://twitter.com)
+Medium: [http://medium.com/@briansztamfater](http://medium.com/@briansztamfater)
