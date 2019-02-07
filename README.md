@@ -65,5 +65,5 @@ For more information please
 
 Feel free to contact me:
 
-Twitter: [@briansztamfater](http://twitter.com)
+Twitter: [@briansztamfater](http://twitter.com/briansztamfater)
 Medium: [http://medium.com/@briansztamfater](http://medium.com/@briansztamfater)
