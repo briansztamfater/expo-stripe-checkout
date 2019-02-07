@@ -2,7 +2,7 @@
 
 Since currently the only way to implement Stripe Checkout on an Expo app is by ejecting, I've built this lib that adds support for Stripe Checkout using a WebView.
 
-![](expo-stripe-checkout.gif)
+![expo-stripe-checkout-demo](expo-stripe-checkout-demo.gif)
 
 ### Usage
 
