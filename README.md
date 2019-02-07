@@ -50,7 +50,7 @@ render() {
 }
 
 onPaymentSuccess = (token) => {
-  this.setState({ token })
+  // send the stripe token to your backend!
 }
 
 onClose = () => {
