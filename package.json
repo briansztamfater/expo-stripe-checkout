@@ -1,0 +1,29 @@
+{
+  "name": "expo-stripe-checkout",
+  "version": "1.0.1",
+  "description": "A React Native Stripe Checkout WebView component compatible with Expo apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briansztamfater/expo-stripe-checkout.git"
+  },
+  "keywords": [
+    "stripe",
+    "checkout",
+    "react",
+    "native",
+    "expo",
+    "webview"
+  ],
+  "author": "Brian Sztamfater",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react-native": ">= 0.20.0"
+  }
+}
