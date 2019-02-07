@@ -9,7 +9,7 @@ Since currently the only way to implement Stripe Checkout on an Expo app is by e
 ### Usage
 
 ```
-npm install expo-stripe-checkout
+npm install expo-stripe-checkout --save
 ```
 or
 ```
