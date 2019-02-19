@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { WebView, Platform, View } from 'react-native';
+import { WebView, Platform, View, ViewPropTypes } from 'react-native';
 import { PropTypes } from 'prop-types';
 
 class StripeCheckout extends Component {
@@ -82,7 +82,7 @@ StripeCheckout.propTypes = {
   onClose: PropTypes.func.isRequired,
   currency: PropTypes.string,
   prepopulatedEmail: PropTypes.string,
-  style: View.propTypes.style
+  style: ViewPropTypes.style
 };
 
 StripeCheckout.defaultProps = {
