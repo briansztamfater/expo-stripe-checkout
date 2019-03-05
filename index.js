@@ -82,7 +82,7 @@ StripeCheckout.propTypes = {
   onClose: PropTypes.func.isRequired,
   currency: PropTypes.string,
   prepopulatedEmail: PropTypes.string,
-  style: ViewPropTypes.style
+  style: PropTypes.object
 };
 
 StripeCheckout.defaultProps = {
